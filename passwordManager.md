@@ -7,5 +7,5 @@
 
 * The script copies to clipboard the password for the account that is passed as command line argument
 * The password after being copied can be pasted to the required password field to access the account
-* Dcitionary is used to store the password for the purpose
+* Dictionary is used to store the password for the purpose
 * For using clipboard the module pyperclip is imported
