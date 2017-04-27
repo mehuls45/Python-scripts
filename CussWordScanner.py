@@ -12,8 +12,6 @@ text = pyperclip.paste()
 
 words = text.split(' ')
 
-print(words)
-
 for i in range (len(words)):
     
     word = words[i]
