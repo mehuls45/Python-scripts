@@ -4,8 +4,6 @@
 import pyperclip
 import re
 
-
-
 # phoneRegex
 
 phoneRegex = re.compile(r'''(
@@ -18,7 +16,6 @@ phoneRegex = re.compile(r'''(
     )''',re.VERBOSE)
 
 
-
 # emailRegex
 
 emailRegex = re.compile(r'''(
@@ -27,7 +24,6 @@ emailRegex = re.compile(r'''(
     [a-zA-Z0-9.-]+      # domainName
     (\.[a-zA-Z]{2,4})   # dot-something
     )''',re.VERBOSE)
-
 
 
 # anotherPhoneRegex
@@ -41,7 +37,6 @@ anphoneRegex = re.compile(r'''(
     (\s|-|.|)?       # seperator
     (\d{4})          # 4 digits
     )''',re.VERBOSE)
-
 
 
 # Find matches in clipboard text
@@ -73,16 +68,4 @@ if len(matches) > 0:
 else:
     print('No numbers or email addresses were found')
     
-
-
-
-
-
-
-
-
-
-
-
-
 
