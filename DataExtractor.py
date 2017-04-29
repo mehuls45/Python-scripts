@@ -1,10 +1,9 @@
 #! python3
 # PhoneNumber and Email
 
-# TODO: Website Extractor
-
 import pyperclip
 import re
+
 
 # phoneRegex
 
@@ -41,6 +40,18 @@ anphoneRegex = re.compile(r'''(
     )''',re.VERBOSE)
 
 
+# WebsiteRegex
+
+webRegex = re.compile(r'''(
+    ([htps]{3,5})?       # https or http
+    (://)?               # ://
+    (www\.)?             # www.
+    [a-zA-Z0-9]+         # website name
+    (\.[a-zA-Z]{2,4})    # .com or .co or .org
+    (\.[a-zA-Z]{2,4})?   # .co.in or .co.org
+    )''',re.VERBOSE)
+
+
 # Find matches in clipboard text
 
 text = str(pyperclip.paste())
@@ -50,7 +61,7 @@ matches = []
     phoneNum = '-'.join([groups[1],groups[3],groups[5]])
     if groups[8] != '':
         phoneNum += ' x'+groups[8]
-    matches.append(phoneNum) '''
+    matches.append(phoneNum)  '''
 
 for groups in emailRegex.findall(text):
     matches.append(groups[0])
@@ -58,6 +69,8 @@ for groups in emailRegex.findall(text):
 for groups in anphoneRegex.findall(text):
     matches.append(groups[0])
 
+for groups in webRegex.findall(text):
+    matches.append(groups[0])
 
     
 # Copy results to clipboard
@@ -70,4 +83,3 @@ if len(matches) > 0:
 else:
     print('No numbers or email addresses were found')
     
-
