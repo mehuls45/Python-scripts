@@ -1,9 +1,11 @@
 # Python-scripts
 
-* Simple and easy to use python scripts that can be used to easy out task. 
-* The script are written as a part of practice projects. They may or may not be helpful to
-  simply the task
-* I would gladly accept pointers from others to improve the code and make it more efficient, or simplify the code.
+Simple and easy to use python scripts that can be used to easy out task. 
+The script are written as a part of practice projects. They may or may not be helpful to
+  simply the task.
+I would gladly accept pointers from others to improve the code and make it more efficient, or simplify the code.
+
+## List
 
 - `passwordManager.py` - A simple password manager that returns the password of the account specidfied as command line argument
 
