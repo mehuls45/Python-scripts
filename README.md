@@ -11,9 +11,8 @@ I would gladly accept pointers from others to improve the code and make it more 
 
 - `CussWordScanner.py` - Script to censor out some words from a paragraph\passage
 
-- `DataExtractor.py` - Script that extracts websites,email-ids,contacts from the text it is provided
+- `DataExtractor.py`   - Script that extracts websites,email-ids,contacts from the text it is provided
 
-- `backupToZip.py` -  Copies an entire folder and its contents into a ZIP file whose filename increments
+- `backupToZip.py`     -  Copies an entire folder and its contents into a ZIP file whose filename increments
 
-- `imageFinder.py` -  Copies all the images from a directory and stores them into a new folder. The script can also be made to copy pdf's
-video's, songs, etc if specified the extension
+- `imageFinder.py`     -  Copies all the images from a directory and stores them into a new folder. The script can also be made to copy pdf's, video's, songs, etc if specified the extension
