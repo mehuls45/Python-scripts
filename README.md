@@ -7,7 +7,7 @@ I would gladly accept pointers from others to improve the code and make it more 
 
 ## List
 
-- `passwordManager.py` - A simple password manager that returns the password of the account specidfied as command line argument
+- `passwordManager.py` - A simple password manager that returns the password of the account specified as command line argument
 
 - `CussWordScanner.py` - Script to censor out some words from a paragraph\passage
 
