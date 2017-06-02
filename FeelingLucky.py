@@ -1,5 +1,5 @@
 #! python3
-# lucky.py - Opens several Google search results.
+# FeelingLucky.py - Opens several Google search results.
 
 import requests,bs4,sys,webbrowser
 
@@ -18,7 +18,4 @@ numOpen = min(5,len(linkElems))
 for i in range(numOpen):
     webbrowser.open('http://google.com' + linkElems[i].get('href'))
     print('http://google.com' +linkElems[i].get('href'))
-
-
-
 
