@@ -1,14 +1,13 @@
 #! pyhton3
-# resizeAndAddLogo.py - Resizes all images in current working directory to fit
-# in a 300x300 square, and adds catlogo.png to the lower right-corner
+# ResizeAndAddLogo.py - Resizes all images in current working directory to fit
+# in a 300x300 square, and adds file_name.png to the lower right-corner
 
 import os
 from PIL import Image
 
-SQUARE_FIT_SIZE = 300
-LOGO_FILENAME = 'catlogo.png'
+SQUARE_FIT_SIZE = 300                   # size to fit
+LOGO_FILENAME = 'file_name.png'         # logo to be added
 
-os.chdir('G://')
 logoIm = Image.open(LOGO_FILENAME)
 logoWidth, logoHeight = logoIm.size
 
@@ -49,13 +48,4 @@ for filename in os.listdir('.'):
     # save changes
     im.save(os.path.join('withLogo',filename))
 
-            
-
-
-
-
-
-
-
-
-    
+          
