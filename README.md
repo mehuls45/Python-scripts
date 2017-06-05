@@ -17,6 +17,6 @@ I would gladly accept pointers from others to improve the code and make it more 
 
 - `imageFinder.py`     -  Copies all the images from a directory and stores them into a new folder. The script can also be made to copy pdf's, video's, songs, etc if specified the extension
 
-- `ResizeAndAddLogo.py` - Reduces all the images to dimensionally proportional sizes and adds a logo to the bottom-right corner of the images as a sign of trademark
+- `ResizeAndAddLogo.py` - Reduces all the images to dimensionally proportional sizes and adds a logo to the bottom-right corner of the images as a sign of copyright
 
 - `FeelingLucky.py` - Opens the first five links (Google searches) on your favourite browser for the keywords entered on the command line 
