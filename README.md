@@ -20,3 +20,5 @@ I would gladly accept pointers from others to improve the code and make it more 
 - `ResizeAndAddLogo.py` - Reduces all the images to dimensionally proportional sizes and adds a logo to the bottom-right corner of the images as a sign of copyright
 
 - `FeelingLucky.py` - Opens the first five links (Google searches) on your favourite browser for the keywords entered on the command line 
+
+- `filesize.py` - Walks through a directory tree searching for files > 1 GB and displays the filename along with size in GBs
