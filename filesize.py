@@ -20,6 +20,5 @@ def fileSize(folder):
                 num += 1
 
 
-#fileSize('C:\\')
-fileSize('C:\\Users\\mehul\\Desktop\\Mehul\\')
+fileSize('C:\\')
 print('Done')
