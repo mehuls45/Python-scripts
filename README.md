@@ -22,3 +22,7 @@ I would gladly accept pointers from others to improve the code and make it more 
 - `FeelingLucky.py` - Opens the first five links (Google searches) on your favourite browser for the keywords entered on the command line 
 
 - `filesize.py` - Walks through a directory tree searching for files > 1 GB and displays the filename along with size in GBs
+
+- `lookingbusy.py` - Moves the mouse every 10 seconds to trick the computer that you are busy working
+
+- `youtube_views.py` - script to get more views from youtube videos 
